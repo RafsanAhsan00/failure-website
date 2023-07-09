@@ -83,4 +83,28 @@ padding: 24px 0px 24px 0px;
 .failure-list li{
     list-style: none;
     padding: 8px 0px;
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.plans{
+  
+    padding:150px;
+    margin:0px auto;
+}
+.plans> h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.plan-text{
+    background-color: rgba(255, 228, 196, 0.19);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 50px 130px;
+    
+}
+main{
+    max-width: 1600px;
+    margin: 0px auto;
 }
