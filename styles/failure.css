@@ -52,3 +52,35 @@ font-weight: 400;
 padding: 24px 0px 32px 0px;
 }
 /* header part style done */
+
+.failure-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.failure-img{
+    width: 500px;
+    padding-left: 270px;
+    padding-top: 140px;
+}
+
+ .failure-text{
+    padding-right: 322px;
+    padding-top: 370px;
+    
+}
+.failure-title{
+color: black;
+font-size: 60px;
+font-weight: bolder;
+}
+.failure-description{
+ color:#444343;
+font-size: 16px;
+font-weight: 400;
+padding: 24px 0px 24px 0px;
+}
+.failure-list li{
+    list-style: none;
+    padding: 8px 0px;
+}
