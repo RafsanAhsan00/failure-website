@@ -108,3 +108,20 @@ main{
     max-width: 1600px;
     margin: 0px auto;
 }
+.positive-container{
+    max-width: 1140px;
+    background-image: url('/images/watch.png');
+    background-size: cover;
+    height: 200px;
+    padding: 30px;
+}
+.gradient{
+    max-width: 1140px;
+    background-image: url('/images/watch.png');
+    background-size: cover;
+    height: 200px;
+    padding: 30px;
+}
+.positive-mindset{
+    padding: 0px 350px;
+}
