@@ -9,14 +9,15 @@
     font-family: 'Tilt Warp', cursive;
     font-family: 'Ubuntu', sans-serif;
 }
-.primary-btn{
-border-radius: 5px;
-border: none;
-padding: 10px 5px;
-color: #005FAC;
-text-align: right;
-font-size: 20px;
-font-weight: 600;
+
+.primary-btn {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 5px;
+    color: #005FAC;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .banner {
@@ -44,89 +45,154 @@ font-weight: 600;
     font-weight: 700;
 
 }
-.banner-description{
-color: #FFF;
-text-align: right;
-font-size: 16px;
-font-weight: 400;
-padding: 24px 0px 32px 0px;
+
+.banner-description {
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0px 32px 0px;
 }
+
 /* header part style done */
 
-.failure-container{
+.failure-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.failure-img{
+
+.failure-img {
     width: 500px;
     padding-left: 270px;
     padding-top: 140px;
 }
 
- .failure-text{
+.failure-text {
     padding-right: 322px;
     padding-top: 370px;
-    
+
 }
-.failure-title{
-color: black;
-font-size: 60px;
-font-weight: bolder;
+
+.failure-title {
+    color: black;
+    font-size: 60px;
+    font-weight: bolder;
 }
-.failure-description{
- color:#444343;
-font-size: 16px;
-font-weight: 400;
-padding: 24px 0px 24px 0px;
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0px 24px 0px;
 }
-.failure-list li{
+
+.failure-list li {
     list-style: none;
     padding: 8px 0px;
-    color:#444343;
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
 }
-.plans{
-  
-    padding:150px;
-    margin:0px auto;
+
+.plans {
+
+    padding: 150px;
+    margin: 0px auto;
 }
-.plans> h2{
+
+.plans>h2 {
     text-align: center;
     padding-bottom: 50px;
 }
-.plan-text{
+
+.plan-text {
     background-color: rgba(255, 228, 196, 0.19);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px 50px 130px;
-    
+
 }
-main{
+
+main {
     max-width: 1600px;
     margin: 0px auto;
 }
-.graidient-image{
-    background-image:url('/images/watch.png'),linear-gradient(to bottom,#005fac 0%,rgba(0,95,172,0));
+
+.graidient-image {
+    background-image: url('/images/watch.png'), linear-gradient(to bottom, #005fac 0%, rgba(0, 95, 172, 0));
     background-size: cover;
     max-width: 1300px;
     height: 300px;
-    
+
 }
-.positive-mindset{
-   padding-top: 150px;
+
+.positive-mindset {
+    padding-top: 150px;
 }
-.graidient-image> h3{
+
+.graidient-image>h3 {
     border-radius: 5px;
     margin: 20px;
     padding-top: 60px;
     padding-left: 60px;
     color: #FFF;
     font-size: 40px;
-    font-weight: 700;    
+    font-weight: 700;
 }
-.graidient-image> button{
+
+.graidient-image>button {
     margin: 30px 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+    width: auto;
+    height: 570px;
+    align-items: center;
+    color: white;
+}
+
+.footer-column>h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-column>p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-column2 {
+margin-bottom: 70px;
+}
+.column-title{
+font-size: 30px;
+font-weight: 600;
+}
+.email-box{
+    padding: 20px 50px;
+    border: 1px solid white;
+    border: 5px;
+    text-align:center;
+    margin-top: 30px;
+}
+.sub-btn{
+    border-radius: 5px;
+    border: none;
+    padding: 20px 35px;
+    background-color: #005FAC;
+    color: #ffffff;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 36px;
+}
+.footer-icon{
+    padding: 0px 5px 0px 0px;
+    margin-right: 10px;
 }
