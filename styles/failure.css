@@ -108,20 +108,25 @@ main{
     max-width: 1600px;
     margin: 0px auto;
 }
-.positive-container{
-    max-width: 1140px;
-    background-image: url('/images/watch.png');
+.graidient-image{
+    background-image:url('/images/watch.png'),linear-gradient(to bottom,#005fac 0%,rgba(0,95,172,0));
     background-size: cover;
-    height: 200px;
-    padding: 30px;
-}
-.gradient{
-    max-width: 1140px;
-    background-image: url('/images/watch.png');
-    background-size: cover;
-    height: 200px;
-    padding: 30px;
+    max-width: 1300px;
+    height: 300px;
+    
 }
 .positive-mindset{
-    padding: 0px 350px;
+   padding-top: 150px;
+}
+.graidient-image> h3{
+    border-radius: 5px;
+    margin: 20px;
+    padding-top: 60px;
+    padding-left: 60px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;    
+}
+.graidient-image> button{
+    margin: 30px 80px;
 }
